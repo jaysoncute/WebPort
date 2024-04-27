@@ -33,6 +33,42 @@ nav{
     width: 100%;
 }
 
+.Download-resume {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 10px;
+    color: #5846f9;
+    border: 2px solid #f946b4;
+  }
+  
+  .Download-resume:hover {
+    background: #5846f9;
+    color: #000;
+  }
+  
+  .navbar .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+    visibility: visible;
+  }
+  
+  @media (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+      left: -90%;
+    }
+  
+    .navbar .dropdown .dropdown:hover>ul {
+      left: -100%;
+    }
+  }
+
 .logo{
     height: 50px;
     width: 50px;
