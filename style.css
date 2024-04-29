@@ -10,9 +10,14 @@
 }
 
 body{
-    background-color:rgb(90, 85, 85);
-    color:#f9f6ef;
+    background-color:rgb(71, 67, 67);
+    color:#f5f3f0;
 }
+
+.1{
+    height: 30px;
+}
+
 
 /* NAVIGATION BAR */
 nav{
@@ -23,7 +28,7 @@ nav{
 }
 
 .navigation-bar{
-    background-color: rgb(255, 255, 255);
+    background-color: hsl(45, 100%, 51%);
     padding: 5px;
     margin: 0;
     height: 70px;
@@ -44,7 +49,7 @@ nav{
     transition: 0.5s;
     margin-top: 10px;
     color: #5846f9;
-    border: 2px solid #f946b4;
+    border: 2px solid #0e0d0d;
   }
   
   .Download-resume:hover {
@@ -262,7 +267,7 @@ li{
 
 .skill-quote1 q{
     color: #ffc107;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: flex-end;
     padding: 10px;
@@ -275,7 +280,7 @@ li{
 
 .skill-quote2 q{
     color: #ffc107;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: flex-start;
     padding: 10px;
@@ -317,21 +322,21 @@ li{
 fieldset{
     text-align: center;
     margin: auto;
-    border-color: #ffc107;
+    border-color: #181715;
     width: 1050px;
     border-style: double;
     border-width: 5px;
 }
 
 legend{
-    color: #ffc107;
+    color: #afaeaa;
     font-size: 30px;
     text-align: left;
 }
 
 /* FOOTER */
 .main-footer{
-    background-color: #ffc107;
+    background-color: hsl(45, 100%, 51%);
     height: 60px;
     padding: 0px;
     margin: 0;
