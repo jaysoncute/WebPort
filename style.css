@@ -1,16 +1,21 @@
 /* UNIVERSAL */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+</style>
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 body{
-    background-color:rgb(71, 67, 67);
+    background-color:rgb(32, 31, 31);
     color:#f5f3f0;
 }
 
@@ -48,13 +53,13 @@ nav{
     border-radius: 5px;
     transition: 0.5s;
     margin-top: 10px;
-    color: #5846f9;
-    border: 2px solid #0e0d0d;
+    color: #e7e6f0;
+    border: 2px solid rgb(250, 250, 247);
   }
   
   .Download-resume:hover {
-    background: #5846f9;
-    color: #000;
+    background: #f0eff3;
+    color: black;
   }
   
   .navbar .dropdown .dropdown:hover>ul {
@@ -322,7 +327,7 @@ li{
 fieldset{
     text-align: center;
     margin: auto;
-    border-color: #181715;
+    border-color: whitesmoke;
     width: 1050px;
     border-style: double;
     border-width: 5px;
